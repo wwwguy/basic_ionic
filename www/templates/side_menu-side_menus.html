@@ -1,0 +1,28 @@
+<ion-side-menus enable-menu-with-back-views="false">
+	<ion-side-menu-content>
+		<ion-nav-bar id="navbar-right-top" class="bar-positive">
+			<ion-nav-back-button></ion-nav-back-button>
+			<ion-nav-buttons side="left">
+				<button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+			</ion-nav-buttons>
+		</ion-nav-bar>
+		<ion-nav-view name="fabButtonUp"></ion-nav-view>
+		<ion-nav-view name="side_menu-side_menus"></ion-nav-view>
+	</ion-side-menu-content>
+	<ion-side-menu side="left">
+		<ion-header-bar class="expanded positive-bg">
+			<img src="img/logo.png" class="avatar motion spin fade">
+			<div class="menu-bottom">Side Menu</div>
+		</ion-header-bar>
+		<ion-content class="has-expanded-header light-bg dark">
+			<div class="list" >
+				<a class="item item-icon-left" menu-close="" href="#side_menu/dashboard">
+					<i class="icon ion-android-home"></i> Dashboard
+				</a>
+				<a class="item item-icon-left" menu-close="" href="#side_menu/photo_editor">
+					<i class="icon ion-android-camera"></i> Photo Editor
+				</a>
+			</div>
+		</ion-content>
+	</ion-side-menu>
+</ion-side-menus>
